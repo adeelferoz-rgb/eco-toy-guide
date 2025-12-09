@@ -42,7 +42,7 @@ const Certifications = () => {
                 <img
                   src={cert.logo}
                   alt={`${cert.name} logo`}
-                  className="h-12 w-12"
+                  className="h-16 w-16 rounded-lg object-cover shadow-sm"
                 />
                 <CardTitle className="text-2xl">{cert.name}</CardTitle>
               </div>

@@ -1,6 +1,7 @@
 import { z } from "zod";
 
-const API_URL = "http://localhost:8000/api/v1/auth";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
+const API_URL = `${API_BASE_URL}/auth`;
 
 export const SignupSchema = z.object({
   email: z.string().email(),

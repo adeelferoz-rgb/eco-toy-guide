@@ -22,7 +22,7 @@ toys_data = [
         "materials": ["Beech Wood", "Water-based Paint"],
         "age_range": "1-3 years",
         "category": "Motor Skills",
-        "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1587654780291-39c940483713?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -36,7 +36,7 @@ toys_data = [
         "materials": ["Organic Cotton", "Corn Fiber"],
         "age_range": "0+ years",
         "category": "Plush Toys",
-        "image_url": "https://images.unsplash.com/photo-1559454403-b8fb87521bc7?q=80&w=3432&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1530325553241-4f6e7690cf36?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -50,7 +50,7 @@ toys_data = [
         "materials": ["Recycled Plastic (HDPE)"],
         "age_range": "2-5 years",
         "category": "Vehicles",
-        "image_url": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -64,7 +64,7 @@ toys_data = [
         "materials": ["Natural Rubber"],
         "age_range": "0-18 months",
         "category": "Baby Gear",
-        "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=3275&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -78,7 +78,7 @@ toys_data = [
         "materials": ["Recycled Plastic", "Solar Panels", "Electronic Components"],
         "age_range": "8-12 years",
         "category": "STEM",
-        "image_url": "https://images.unsplash.com/photo-1535332371349-a5d229f49cb5?q=80&w=2665&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1561144257-e32e9d6eb3f6?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -92,7 +92,7 @@ toys_data = [
         "materials": ["Bamboo"],
         "age_range": "3+ years",
         "category": "Construction",
-        "image_url": "https://images.unsplash.com/photo-1587654780291-39c940483713?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -106,7 +106,7 @@ toys_data = [
         "materials": ["Flour", "Salt", "Vegetable Oil", "Natural Dyes"],
         "age_range": "3+ years",
         "category": "Arts & Crafts",
-        "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=3271&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1612924644859-b8b5b2d2bf37?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -120,7 +120,7 @@ toys_data = [
         "materials": ["Recycled Cardboard"],
         "age_range": "3-8 years",
         "category": "Pretend Play",
-        "image_url": "https://images.unsplash.com/photo-1612460067802-9159235e828d?q=80&w=3024&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -135,7 +135,7 @@ toys_data = [
         "materials": ["FSC Rubberwood", "Water-based Paint"],
         "age_range": "1-3 years",
         "category": "Motor Skills",
-        "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=3275&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -149,7 +149,7 @@ toys_data = [
         "materials": ["Organic Cotton", "Corn Fiber"],
         "age_range": "0-12 months",
         "category": "Plush Toys",
-        "image_url": "https://images.unsplash.com/photo-1555447405-058428d6556a?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1566454419290-27f986d62ce7?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -163,7 +163,7 @@ toys_data = [
         "materials": ["Recycled Plastic (HDPE)"],
         "age_range": "3-5 years",
         "category": "Bath Toys",
-        "image_url": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1603573355706-0c47f52fcc1b?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -177,7 +177,7 @@ toys_data = [
         "materials": ["Pine Wood", "Acrylic Paint"],
         "age_range": "5-8 years",
         "category": "Arts & Crafts",
-        "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -191,7 +191,7 @@ toys_data = [
         "materials": ["Birch Plywood", "Rubber Tires"],
         "age_range": "1-3 years",
         "category": "Ride-on",
-        "image_url": "https://images.unsplash.com/photo-1621460244978-659f8125956f?q=80&w=3387&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -205,7 +205,7 @@ toys_data = [
         "materials": ["Recycled Cardboard", "Soy Ink"],
         "age_range": "3-5 years",
         "category": "Puzzles",
-        "image_url": "https://images.unsplash.com/photo-1606092195730-5d7b9af1ef4d?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1611329857570-f02f340e7378?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -219,7 +219,7 @@ toys_data = [
         "materials": ["Organic Fruit/Veg Extracts", "Corn Starch"],
         "age_range": "1-3 years",
         "category": "Arts & Crafts",
-        "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=3270&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     },
@@ -233,7 +233,7 @@ toys_data = [
         "materials": ["Recycled Plastic", "Electronic Motor"],
         "age_range": "8+ years",
         "category": "STEM",
-        "image_url": "https://images.unsplash.com/photo-1453232873136-1f3c301cb4d4?q=80&w=3347&auto=format&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?q=80&w=800&auto=format&fit=crop",
         "certification_ids": [],
         "created_at": datetime.utcnow()
     }
@@ -255,20 +255,22 @@ async def seed_toys():
     # Helper to attach cert IDs based on toy properties (simple logic for seeding)
     def attach_certs(toy):
         ids = []
+        materials_str = str(toy["materials"])
+        
         # FSC logic: if wood/paper based
-        if "Wood" in str(toy["materials"]) or "Cardboard" in str(toy["materials"]):
+        if any(keyword in materials_str for keyword in ["Wood", "Cardboard", "Bamboo", "Pine", "Beech", "Birch", "Plywood"]):
             if "fsc" in cert_map: ids.append(cert_map["fsc"])
         
         # GOTS logic: if organic cotton
-        if "Organic Cotton" in str(toy["materials"]):
+        if "Organic Cotton" in materials_str:
             if "gots" in cert_map: ids.append(cert_map["gots"])
             
-        # Recycled Plastic logic (Green Seal maybe?)
-        if "Recycled Plastic" in str(toy["materials"]):
+        # Recycled materials logic (Green Seal)
+        if any(keyword in materials_str for keyword in ["Recycled", "recycled"]):
              if "green-seal" in cert_map: ids.append(cert_map["green-seal"])
 
-        # Oeko-Tex generic safety for fabrics
-        if "Cotton" in str(toy["materials"]) or "Plush" in toy["category"]:
+        # Oeko-Tex generic safety for fabrics and textiles
+        if any(keyword in materials_str for keyword in ["Cotton", "Fiber", "Textile", "Fabric"]) or "Plush" in toy["category"]:
              if "oeko-tex" in cert_map: ids.append(cert_map["oeko-tex"])
 
         return list(set(ids)) # unique
