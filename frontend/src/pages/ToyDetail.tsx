@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { getToyById, saveToy, unsaveToy, fetchSavedToys } from "../services/toys";
+import { fetchCertifications } from "../services/certifications";
 import { authService } from "../services/auth";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -29,7 +30,17 @@ const ToyDetail = () => {
     enabled: isAuthenticated,
   });
 
+  const { data: allCertifications } = useQuery({
+    queryKey: ["certifications"],
+    queryFn: fetchCertifications,
+  });
+
   const isSaved = savedToys?.some((t) => t._id === id);
+
+  // Get certifications for this toy
+  const toyCertifications = allCertifications?.filter(cert => 
+    toy?.certification_ids?.includes(cert._id || cert.id)
+  ) || [];
 
   const saveMutation = useMutation({
     mutationFn: saveToy,
@@ -193,17 +204,38 @@ const ToyDetail = () => {
                     </ul>
                 </div>
             )}
-             
-            {/* Certifications Placeholder - ideally we'd fetch these */}
-            <div className="bg-green-50 p-4 rounded-lg border border-green-100">
-                 <h3 className="font-semibold text-green-800 mb-2 flex items-center">
-                    <ShieldCheck className="h-4 w-4 mr-2" /> Eco-Certifications
-                 </h3>
-                 <p className="text-sm text-green-700">
-                    This toy meets our high standards for sustainability and safety.
-                 </p>
-            </div>
           </div>
+
+          {/* Eco-Certifications Section */}
+          {toyCertifications.length > 0 && (
+            <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+              <h3 className="font-semibold text-green-900 mb-4 flex items-center text-lg">
+                <ShieldCheck className="h-5 w-5 mr-2" /> Eco-Certifications
+              </h3>
+              <div className="space-y-4">
+                {toyCertifications.map((cert) => (
+                  <div key={cert._id || cert.id} className="bg-white p-4 rounded-md border border-green-100">
+                    <div className="flex items-start gap-3 mb-2">
+                      <img 
+                        src={cert.logo} 
+                        alt={cert.name}
+                        className="h-10 w-10 rounded object-cover"
+                      />
+                      <div className="flex-1">
+                        <h4 className="font-semibold text-gray-900">{cert.name}</h4>
+                        <p className="text-sm text-gray-600 mt-1">{cert.meaning}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <Link to="/certifications">
+                <Button variant="link" className="mt-3 p-0 h-auto text-green-700 hover:text-green-800">
+                  Learn more about certifications →
+                </Button>
+              </Link>
+            </div>
+          )}
 
           <div className="pt-6 flex flex-col sm:flex-row gap-4">
             {toy.buy_link ? (
